@@ -14,27 +14,36 @@ The following material will be taught in Python by Dr. Graham Ganssle from 9 am 
   * Classification by logistic regression
 
 
-* Trees!
+* Trees
+  * A single decision tree
+    * hard coded
+    * machine learning
+  * A forest of trees: random forest classifiers
+
 
 * Unsupervised learning
   * Kmeans
   * DBSCAN
+  * PCA
 
 
 * [stretch goal] Neural Networks
-  * Hand rolled learning linear system
-  * SGD in practice
   * NNs using Pytorch
 
 ## Required Dependencies
 
-Since the time allotted is so short, we ask that you come prepared with the following required dependencies installed, running, and tested on your machine:
+Since the time allotted is so short we ask that you come prepared with the following required dependencies installed, running, and tested on your machine:
 
 #### For the Python session:
 
 * [Python 3](https://docs.python.org/3/using/index.html)
-* [scikit-learn](http://scikit-learn.org/stable/install.html)
 * [Pytorch](https://pytorch.org/)
+* The rest of the tools can all be installed simultaneously by installing [Anaconda](https://conda.io/docs/user-guide/install/index.html)
+  * [numpy](https://docs.scipy.org/doc/numpy/user/install.html)
+  * [pandas](https://pandas.pydata.org/pandas-docs/stable/install.html)
+  * [matplotlib](https://matplotlib.org/users/installing.html)
+  * [scikit-learn](http://scikit-learn.org/stable/install.html)
+
 
 #### For the R session:
 
