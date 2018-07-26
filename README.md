@@ -1,20 +1,53 @@
-# Women's Machine Learning as a Product Hackathon and Bootcamp
+# Deep Learning Branch:
 
-> ## Deep Learning Branch:
 > This branch is used for teaching deep learning. It's probably not the one you want. Use `git checkout master` to return to your normally schedulled programming.
 
 
-Welcome to the repo for the hackathon and bootcamp hosted by [Expero](https://experoinc.com). Thanks for participating!
+Your instructor today is [Graham Ganssle](https://www.linkedin.com/in/grahamganssle/). Please don't hesitate to get up and scribble a question on the whiteboard!
 
-## Bootcamp
+---
 
-We hope you can make it to the bootcamp on Friday, the 27th. Please check out the [bootcamp](bootcamp/) folder for more information on subjects we'll cover and tools you should bring with you.
+### Requirements
 
-## Hackathon
+**Before you begin,** you should have the following installed:
 
-We've prepared some sample [projects](link_missing) and curated some open source [data](data/) for you to look through. Please don't feel limited to these meager options; the best projects are built from domain expertise and assets you already possess.
+* [Pandas](https://pandas.pydata.org/pandas-docs/stable/install.html)
 
-## Acknowledgements
-For their immense contributions, thanks to #RLadiesAustin, Women in Product, Women Who Code, Women in Data Science. Your support of this community is amazing. Code on!
+* [PyTorch](https://pytorch.org/) (CPU or GPU flavor, depending on your hardware)
 
-A resounding shout out to Caitlin Hudon for her significant temporal investment in this event, and in this community.
+And, optionally:
+
+* [TensorboardX](https://github.com/lanpa/tensorboard-pytorch#install)
+
+* [bokeh](https://bokeh.pydata.org/en/latest/docs/installation.html)
+
+* [tqdm](https://github.com/tqdm/tqdm#installation)
+
+---
+
+### Syllabus
+
+When you leave today you should know how to build and train simple PyTorch models. We'll build a neural network in the course today, which is not the only model type PyTorch is capable of representing. In fact, the library is full of goodies which you should play with at home after this course! Here's what we'll be working on today in chronological order:
+
+1. Tensors - what are they?
+
+2. Gradients - how do gradients play a role in the world of deep learning?
+
+3. Optimization - how to use tensors (**1.**) and gradients (**2.**) to find function extrema.
+
+4. Neural networks (regression) - we'll train a neural network to approximate a continuous, differentiable function.
+
+5. Neural networks (classification) - we'll train a neural network to tell us a rock type based on the chemical composition of a sample.
+
+---
+
+### Run order
+
+This repo contains a TON of code. We'll run things in the following order:
+1. `nb/1.0-Tensors-Gradients-Optimization.ipynb`
+2. `nb/2.0-Simple-Neural-Network.ipynb`
+3. `dat/scrape.sh`
+4. `dat/data_prep.ipynb`
+5. `nb/3.0-Simple-Neural-Network_realData.ipynb`
+
+---
