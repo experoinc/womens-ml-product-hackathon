@@ -1,0 +1,7 @@
+dat/csv/*
+
+dat/checkpoints/*.npy
+dat/checkpoints/*.bin
+
+nb/runs/*
+
