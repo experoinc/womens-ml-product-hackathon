@@ -1,5 +1,9 @@
 # Women's Machine Learning as a Product Hackathon and Bootcamp
 
+> ## Deep Learning Branch:
+> This branch is used for teaching deep learning. It's probably not the one you want. Use `git checkout master` to return to your normally schedulled programming.
+
+
 Welcome to the repo for the hackathon and bootcamp hosted by [Expero](https://experoinc.com). Thanks for participating!
 
 ## Bootcamp
